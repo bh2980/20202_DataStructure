@@ -15,7 +15,8 @@
 ```
 ### 200909 : C 프로그래밍 테스트 / 구조체 및 동적할당
 ```
-- 한 클래스의 학생들의 정보(성, 나아ㅣ)와 성적(수학, 영어, 역사)을 파일로 입력받고 구조체와 동적메모리 할당을 이용하여 저장한 후, 사용자의 요구에 따라 출력하는 프로그램을 작성
+- 한 클래스의 학생들의 정보(성, 나아ㅣ)와 성적(수학, 영어, 역사)을 파일로 입력받고 
+  구조체와 동적메모리 할당을 이용하여 저장한 후, 사용자의 요구에 따라 출력하는 프로그램을 작성
 - 정렬의 기준은 모두 오름차순이나 성, 나이, 과목 성적을 선택하여 선택한 값을 기준으로 정렬할 것
 ```
 ### 200915 : Stack
@@ -53,24 +54,33 @@ Stack과 Queue를 사용하여 10진수를 8진수로 변환하는 프로그램
 ```
 ### 201107 : Graph
 ```
-Ad_Matrix.h : 행렬을 통해 그래프를 구현한 헤더파일
-Ad_List.h : Linked list를 통해 그래프를 구현한 헤더파일
-Ad_Matrix3.h : Ad_Matrix3.h에 가중치를 추가로 구현한 그래프 헤더파일
-Ad-Queue.h : Graph 구조에 사용되는 Queue 헤더파일
-graph.c : 파일로 입력받은 그래프에 대하여 DFT, BFT, shortest path와 minimum spanning tree를 출력하는 프로그램
+- Ad_Matrix.h : 행렬을 통해 그래프를 구현한 헤더파일
+- Ad_List.h : Linked list를 통해 그래프를 구현한 헤더파일
+- Ad_Matrix3.h : Ad_Matrix3.h에 가중치를 추가로 구현한 그래프 헤더파일
+- Ad_Queue.h : Graph 구조에 사용되는 Queue 헤더파일
+- graph.c : 파일로 입력받은 그래프에 대하여 DFT, BFT, shortest path,
+            그리고 minimum spanning tree를 출력하는 프로그램
 
-test.txt : directed graph 입력파일
-test2.txt : 가중체가 포함된 undirected graph 입력파일
+- test.txt : directed graph 입력파일
+- test2.txt : 가중체가 포함된 undirected graph 입력파일
 ```
 ### 201109 : Binary Tree
 ```
-HELLO
+- Binary_Tree.h : 이진 트리 구조를 구현한 헤더파일
+- Tree_Queue.h : 이진 트리 구조에 필요한 Queue 구조 헤더 파일
+- TreeOrder.c : 이진트리를 통해 입력받은 문자열을 DFT(preorder, inorder, postorder), BFT로 출력하는 프로그램
 ```
 ### 201122 : Search & Sort
 ```
-HELLO
+- Binary_Search.h : 이진 탐색을 구현한 헤더파일.
+- Hashed_Search.h : Hashed Search를 구현한 헤더파일
+- SortWay.h : Selection Sort, Insertion Sort, Bubble Sort, Quick Sort, Merge Sort를 구현한 헤더파일
+- 1_main.c : 파일로 입력받은 정수들에 대해서 원하는 정수가 있는지 여부를 알려주는 프로그램
+- 2_main.c : 임의의 정수열을 입력받아 이를 오름차순으로 배열해주는 프로그램
+
+- test.txt, test2.txt, test3.txt : 150개의 임의의 정수를 배열한 입력파일
 ```
 ### 201128 : Graph / Binary Search Tree
 ```
-HELLO
+####기말고사
 ```
